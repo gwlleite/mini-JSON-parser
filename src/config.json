@@ -1,0 +1,29 @@
+{   
+    "numberPerceptronsEachLayer1" : [true , true, false, true],
+    "numberPerceptronsEachLayer2" : [16 , 17, 16, 5],
+    "numberPerceptronsEachLayer3" : [16.1 , 17.2, 16.3, 5.5],
+    "numberPerceptronsEachLayer4" : ["value1", "value2", "value3", "value4"],
+    "neuronalNetworkTrained" : false,
+    "dataFileFormat" : "CSV",
+    "trainingData" : {
+        "dir1" : ".\\data\\",
+        "File1" : "trainingData.csv",
+        "dir2" : ".\\data\\",
+        "Obj2" : { 
+            "testData" : ".\\data\\",
+            "File" : "testData.csv" ,
+            "testLabels" : ".\\data\\",
+            "key10" : 11.11,
+            "key20" : 2222,
+            "key30" : true
+        },
+        "Obj1File" : "testLabels.csv",
+        "dir" : "test with spaces",
+        "File" : "weights" 
+    },
+    "trainingRate" : 0.4,
+    "alpha" : 5.0,
+    "batchSizeForTraining" : 20 ,
+    "numberEpochsTraining" : 500 ,
+    "batchSizeForTesting" : 250
+}
